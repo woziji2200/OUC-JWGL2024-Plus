@@ -28,7 +28,12 @@
             "all_frames": true
         }
     ],
+    "action": {
+        "default_icon": "/img/logo.png",
+        "default_title": "OUC JWGL2024 Plus",
+        "default_popup": "/popup.html"
+    },
     "permissions": [
-        "tabs"
+        "tabs","activeTab","storage","scripting","webNavigation","contextMenus"
     ]
 }
