@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "name": "OUC JWGL2024 Plus",
+    "version": "1.0.0",
+    "author": "高坂滑稽果",
+    "description": "OUC新版教务系统优化工具",
+    "icons": {
+        "16": "/img/logo.png",
+        "48": "/img/logo.png",
+        "128": "/img/logo.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://jwgl2024.ouc.edu.cn/*",
+                "http://jwgl2024.ouc.edu.cn/",
+                "https://jwgl2024.ouc.edu.cn/*",
+                "https://jwgl2024.ouc.edu.cn/"
+            ],
+            "js": [
+                "main.js"
+            ],
+            "css":[
+                "main.css",
+                "dark.css"
+            ],
+            "run_at": "document_end",
+            "all_frames": true
+        }
+    ],
+    "permissions": [
+        "tabs"
+    ]
+}

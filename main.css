@@ -1,0 +1,49 @@
+.layui-layer-shade {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.inlet-item {
+    width: auto !important;
+}
+
+.index-header-left h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 100%;
+}
+
+/* .qz-weeklyTable-th.qz-ellipse {
+    width:  auto !important;
+}
+
+.qz-weeklyTable-td.qz-weeklyTable-label {
+    width:  auto !important;
+} */
+
+.layui-form.qz-search {
+    width: auto !important;
+}
+
+@media screen and (max-width: 768px) {
+    .contentBody {
+        flex-direction: column;
+    }
+
+    .contentBody.qz-flex-row .qz-contentRight.qz-flex-col {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+}
+
+* ::-webkit-scrollbar {
+    width: 4px !important;
+    height: 4px !important;
+    background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    border-radius: 4px !important;
+}

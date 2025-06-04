@@ -1,0 +1,133 @@
+@media (prefers-color-scheme:dark) {
+    :root .qz-blue {
+        --main: #1e1e1e!important ;
+        --secondary: #2c2c2c!important ;
+        --primary: #3f7adb!important ;
+        --success: #0fae56!important ;
+        --warning: #ff9c1d!important ;
+        --danger: #f56c6c!important ;
+        --disabled: #3f3f3f!important ;
+        --btnDisabled: #999999!important ;
+        --normal: #3f3f3f!important ;
+        --primaryH: #366fcc!important ;
+        --successH: #0c9b4c!important ;
+        --warningH: #eb8d16!important ;
+        --dangerH: #f45f5f!important ;
+        --btnDisabledH: #8d8d8d!important ;
+        --primary6: rgba(63, 122, 219, 0.06)!important ;
+        --primary8: rgba(63, 122, 219, 0.08)!important ;
+        --primary10: rgba(63, 122, 219, 0.10)!important ;
+        --primary12: rgba(63, 122, 219, 0.12)!important ;
+        --primary15: rgba(63, 122, 219, 0.15)!important ;
+        --primary16: rgba(63, 122, 219, 0.16)!important ;
+        --primary18: rgba(63, 122, 219, 0.18)!important ;
+        --primary20: rgba(63, 122, 219, 0.2)!important ;
+        --primary25: rgba(63, 122, 219, 0.25)!important ;
+        --primary29: rgba(63, 122, 219, 0.29)!important ;
+        --primary50: rgba(63, 122, 219, 0.5)!important ;
+        --primary75: rgba(63, 122, 219, 0.75)!important ;
+        --success15: #dbf3e6!important ;
+        --warning15: #fff0dd!important ;
+        --danger8: rgba(245, 108, 108, 0.08)!important ;
+        --danger15: #fee9e9!important ;
+        --disabled15: rgba(63, 63, 63, 0.15)!important ;
+        --btnDisabled15: rgba(141, 141, 141, 0.15)!important ;
+        --danger10: rgba(245, 108, 108, 0.1)!important ;
+        --danger15: rgba(245, 108, 108, 0.15)!important ;
+        --black6: rgba(0, 0, 0, 0.06)!important ;
+        --fontPrimary: #f8f8f8!important ;
+        --fontNormal: #cccccc!important ;
+        --fontSecondary: #999999!important ;
+        --fontSeize: #666666!important ;
+        --borderPrimary: #3f3f3f!important ;
+        --borderSecondary: #3f3f3f!important ;
+        --thBackground: #2c2c2c!important ;
+        --white: #1e1e1e!important ;
+        --white95: rgba(30, 30, 30, 0.95)!important ;
+        --white80: rgba(30, 30, 30, 0.8)!important ;
+        --white70: rgba(30, 30, 30, 0.7)!important ;
+        --white15: rgba(30, 30, 30, 0.15)!important ;
+        --borderSolid: 1px solid #3f3f3f!important ;
+        --borderDashed: 1px dashed #3f3f3f!important ;
+        --borderSolidHover: 1px solid #cecece!important ;
+        --borderSolidFocus: 1px solid #3f7adb!important ;
+        --borderSolidDanger: 1px solid #f56c6c!important ;
+        --borderDashedPrimary: 1px dashed #3f7adb!important ;
+    }
+
+    .qz-content .qz-flex-col {
+        background-color: var(--main) !important;
+    }
+
+    .menu-one * {
+        color: var(--fontPrimary);
+    }
+
+    .layui-table-box {
+        background-color: var(--main) !important;
+    }
+
+    .layui-table-cell {
+        color: var(--fontPrimary) !important;
+        background-color: var(--main) !important;
+    }
+
+    .qz-content {
+        background-color: var(--secondary) !important;
+    }
+
+    .qz-cardBox {
+        background-color: var(--main) !important;
+    }
+
+    .layui-form {
+        color: var(--fontPrimary) !important;
+        background-color: var(--main) !important;
+    }
+
+    .qz-table {
+        background-color: transparent !important;
+    }
+
+    * {
+        border-color: var(--borderPrimary) !important;
+    }
+
+    .menu-three * {
+        color: var(--fontPrimary) !important;
+    }
+
+    .menu-two * {
+        color: var(--fontPrimary) !important;
+    }
+
+    .qz-weeklyTable-thbody {
+        background-color: var(--thBackground) !important;
+        color: var(--fontPrimary) !important;
+
+        font {
+            color: var(--fontPrimary) !important;
+        }
+    }
+
+    .layui-textarea {
+        background-color: var(--main) !important;
+        color: var(--fontPrimary) !important;
+    }
+
+    .td-cell.qz-ellipse {
+        width: auto !important;
+        color: var(--fontPrimary) !important;
+        background-color: var(--main) !important;
+    }
+
+    .layui-input {
+        background-color: var(--main) !important;
+        color: var(--fontPrimary) !important;
+        border-color: var(--borderPrimary) !important;
+    }
+
+    .qz-tooltip {
+        background-color: var(--main) !important;
+    }
+}
