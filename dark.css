@@ -1,7 +1,7 @@
 @media (prefers-color-scheme:dark) {
     :root .qz-blue {
-        --main: #1e1e1e!important ;
-        --secondary: #2c2c2c!important ;
+        --main: #1e1e1e66!important ;
+        --secondary: #2c2c2c66 !important ;
         --primary: #3f7adb!important ;
         --success: #0fae56!important ;
         --warning: #ff9c1d!important ;
@@ -129,5 +129,16 @@
 
     .qz-tooltip {
         background-color: var(--main) !important;
+    }
+
+    .qz-detailtext {
+        color: var(--fontPrimary) !important;
+    }
+
+    .layui-form-checkbox * {
+        color: var(--fontPrimary) !important;
+    }
+    .layui-form-checkbox[lay-skin='primary'] > i {
+        /* background-color: transparent !important; */
     }
 }

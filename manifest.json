@@ -21,6 +21,7 @@
                 "main.js"
             ],
             "css": [
+            "css": [
                 "main.css",
                 "dark.css"
             ],
