@@ -69,3 +69,49 @@
     background-color: rgba(0, 0, 0, 0.2) !important;
     border-radius: 4px !important;
 }
+
+
+.myTable {
+    width: 100% !important;
+    overflow: hidden !important;
+    position: relative !important;
+
+    .myTable-header{
+        flex-wrap: wrap !important;
+        .header-left {
+            flex-wrap: wrap !important;
+            column-gap: 5px !important;
+
+            .header-left-row {
+                flex-wrap: wrap !important;
+            }
+        }
+    }
+}
+
+.qz-body.qz-blue > div:nth-child(26) > table {
+    width: auto !important;
+}
+#dataView > thead > tr > th {
+    width: auto !important;
+    min-width: 70px !important;
+    max-width: 200px !important;
+}
+
+#dataView > tbody > tr> td {
+    width: auto !important;
+    min-width: 70px !important;
+    max-width: 200px !important;
+}
+
+#tableDivWarp {
+    height: auto !important;
+}
+
+div.main {
+    overflow: scroll !important;
+}
+
+.select-bottom {
+    height: 100% !important;
+}

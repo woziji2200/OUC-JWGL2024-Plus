@@ -141,4 +141,17 @@
     .layui-form-checkbox[lay-skin='primary'] > i {
         /* background-color: transparent !important; */
     }
+
+    .dataTable td {
+        color: var(--fontPrimary) !important;
+
+        a {
+            color: var(--fontPrimary) !important;
+        }
+    }
+
+    #dataView > thead > tr > th {
+        color: var(--fontPrimary) !important;
+        background-color: var(--thBackground) !important;
+    }
 }
