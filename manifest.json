@@ -20,11 +20,24 @@
             "js": [
                 "main.js"
             ],
-            "css":[
+            "css": [
                 "main.css",
                 "dark.css"
             ],
             "run_at": "document_end",
+            "all_frames": true
+        },
+        {
+            "matches": [
+                "http://jwgl2024.ouc.edu.cn/*",
+                "http://jwgl2024.ouc.edu.cn/",
+                "https://jwgl2024.ouc.edu.cn/*",
+                "https://jwgl2024.ouc.edu.cn/"
+            ],
+            "js": [
+                "js/jsLoader.js"
+            ],
+            "run_at": "document_start",
             "all_frames": true
         }
     ],
@@ -34,6 +47,23 @@
         "default_popup": "/popup.html"
     },
     "permissions": [
-        "tabs","activeTab","storage","scripting","webNavigation","contextMenus"
+        "tabs",
+        "activeTab",
+        "storage",
+        "scripting",
+        "webNavigation",
+        "contextMenus",
+        "declarativeNetRequest",
+        "declarativeNetRequestWithHostAccess"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "js/*.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
     ]
 }
